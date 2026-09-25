@@ -42,7 +42,9 @@ This is probably too much to do in time so we need to decide which ones we will 
 
 The REPA authors use a pre-processed version of ImageNet 256x256 downloaded from [here](https://www.kaggle.com/competitions/imagenet-object-localization-challenge/).
 
-I have downloaded this dataset and will run pre-processing on it shortly. The pre-processed dataset will be available [here](https://sharepoint.markmizzi.com/atdl-assignment-2), the password is `P$rx4NxzEBBReLeP`.
+## Sharing Data and Models
+
+We need to share data and models which are larger than what is feasible (or good practice) to store on GitHub, so we can use [this link here](https://sharepoint.markmizzi.com/atdl-assignment-2) as a sharepoint, it hosts the files on my personal storage server. I have set the password to be `P$rx4NxzEBBReLeP`.
 
 ## Journal
 
@@ -54,9 +56,7 @@ I have downloaded this dataset and will run pre-processing on it shortly. The pr
   kagglehub.login()
   path = kagglehub.competition_download('imagenet-object-localization-challenge', output_dir="data")
   ```
-  to download the raw dataset used in the REPA paper.
-
-- Next I ran the following command:
+  to download the raw dataset used in the REPA paper. Next I ran the following command:
   ```bash
   python dataset_tools.py convert --source=[DIR]/ILSVRC/Data/CLS-LOC/train \
     --dest=[DIR]/images --resolution=256x256 --transform=center-crop-dhariwal
