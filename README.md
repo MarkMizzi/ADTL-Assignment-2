@@ -43,3 +43,22 @@ This is probably too much to do in time so we need to decide which ones we will 
 The REPA authors use a pre-processed version of ImageNet 256x256 downloaded from [here](https://www.kaggle.com/competitions/imagenet-object-localization-challenge/).
 
 I have downloaded this dataset and will run pre-processing on it shortly. The pre-processed dataset will be available [here](https://sharepoint.markmizzi.com/atdl-assignment-2), the password is `P$rx4NxzEBBReLeP`.
+
+## Journal
+
+### Dataset preparation
+
+- 26/09 Mark: I made a Kaggle account, created an API key, then ran the following code in Python (from venv with `kagglehub` installed):
+  ```python
+  import kagglehub 
+  kagglehub.login()
+  path = kagglehub.competition_download('imagenet-object-localization-challenge', output_dir="data")
+  ```
+  to download the raw dataset used in the REPA paper.
+
+- Next I ran the following command:
+  ```bash
+  python dataset_tools.py convert --source=[DIR]/ILSVRC/Data/CLS-LOC/train \
+    --dest=[DIR]/images --resolution=256x256 --transform=center-crop-dhariwal
+  ```
+  which they give in the `preprocessing/` folder of their repo to apply some simple image transformation to the images.
