@@ -37,3 +37,9 @@ I suggest splitting tasks related to training and tasks related to experiments, 
 | 32 | 1M | ImageNet 256x256 | SiT-XL/2 | Yes | DINOv2-L? | 8 | [ ] |
 
 This is probably too much to do in time so we need to decide which ones we will train. In their training script I cannot see an easy option to train DiT models so these are a good candidate to remove from our list.
+
+## Dataset
+
+The REPA authors use a pre-processed version of ImageNet 256x256 downloaded from [here](https://www.kaggle.com/competitions/imagenet-object-localization-challenge/).
+
+I have downloaded this dataset and will run pre-processing on it shortly. The pre-processed dataset will be available [here](https://sharepoint.markmizzi.com/atdl-assignment-2), the password is `P$rx4NxzEBBReLeP`.
