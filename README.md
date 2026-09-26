@@ -64,3 +64,21 @@ We need to share data and models which are larger than what is feasible (or good
   which they give in the `preprocessing/` folder of their repo to apply some simple image transformation to the images.
 
 - 26/09 Mark: After 6hr 13m of processing we now have the pre-processed dataset [here](https://sharepoint.markmizzi.com/atdl-assignment-2/vae-sd.zip). Pre-processing was performed on an RTX 5080, I had to make some changes to the `dataset_tools.py` script to bring the time down. In particular I added batching support (see [theirs](https://github.com/sihyun-yu/REPA/blob/main/preprocessing/dataset_tools.py#L395-L409) vs. [ours](https://github.com/MarkMizzi/REPA/blob/main/preprocessing/dataset_tools.py#L398-L431)).
+
+## Troubleshooting
+
+### Issue downloading Dino
+
+Their training script apparently has a data race where multiple processes try to download Dino at once and trip each other up. Solution is to download it manually, e.g. using this script:
+```python
+import torch
+
+model = torch.hub.load(
+    'facebookresearch/dinov2',
+    'dinov2_vitg14',
+)
+```
+
+### Training script
+
+Training script `--data-dir` argument has to point to a folder which contains raw images under `images/` and VAE latents under `vae-sd`
