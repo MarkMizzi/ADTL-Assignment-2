@@ -65,6 +65,14 @@ We need to share data and models which are larger than what is feasible (or good
 
 - 26/09 Mark: After 6hr 13m of processing we now have the pre-processed latents [here](https://sharepoint.markmizzi.com/atdl-assignment-2/vae-sd.zip). Pre-processing was performed on an RTX 5080, I had to make some changes to the `dataset_tools.py` script to bring the time down. In particular I added batching support (see [theirs](https://github.com/sihyun-yu/REPA/blob/main/preprocessing/dataset_tools.py#L395-L409) vs. [ours](https://github.com/MarkMizzi/REPA/blob/main/preprocessing/dataset_tools.py#L398-L431)).
 
+## Guide to Training on UCloud
+
+1. Download [`images.zip`](https://sharepoint.markmizzi.com/atdl-assignment-2/images.zip) and [`vae-sd.zip`](https://sharepoint.markmizzi.com/atdl-assignment-2/vae-sd.zip).
+2. Upload them to UCloud under your `Jobs` directory
+3. Right click > "Uncompress" on both uploaded archives. A job will start, wait for it to finish.
+4. Move both uncompressed dirs into a `data` directory under `Jobs`. Make sure that the dirs are the ones which contain data folders directly underneath them.
+5. 
+
 ## Troubleshooting
 
 ### Issue downloading Dino
