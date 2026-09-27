@@ -106,7 +106,7 @@ We need to share data and models which are larger than what is feasible (or good
       --data-dir=../
     ```
     with appropriate changes to `--model`, `--enc-type`, `--encoder-depth`. See [REPA README.md](./REPA/README.md) for more details on the options. Model weights will be saved under `exps` in the `REPA` repo.
-15. Monitor the job over time and check if it needs more time.
+15. Monitor the job over time and check if it needs more time. You can add more hours from the status page.
 
 
 ## Troubleshooting
