@@ -63,7 +63,7 @@ We need to share data and models which are larger than what is feasible (or good
   ```
   which they give in the `preprocessing/` folder of their repo to apply some simple image transformation to the images. You can download these images (which are also needed for training) [here](https://sharepoint.markmizzi.com/atdl-assignment-2/images.zip).
 
-- 26/09 Mark: After 6hr 13m of processing we now have the pre-processed latents [here](https://sharepoint.markmizzi.com/atdl-assignment-2/vae-sd.zip). Pre-processing was performed on an RTX 5080, I had to make some changes to the `dataset_tools.py` script to bring the time down. In particular I added batching support (see [theirs](https://github.com/sihyun-yu/REPA/blob/main/preprocessing/dataset_tools.py#L395-L409) vs. [ours](https://github.com/MarkMizzi/REPA/blob/main/preprocessing/dataset_tools.py#L398-L431)).
+- 27/09 Mark: Pre-processed latents were generated on UCloud server and are available [here](https://sharepoint.markmizzi.com/atdl-assignment-2/vae-sd.zip). Pre-processing was performed on a B200 (in `1:25:22` hours), I had to make some changes to the `dataset_tools.py` script to bring the time down to this. In particular I added batching support (see [theirs](https://github.com/sihyun-yu/REPA/blob/main/preprocessing/dataset_tools.py#L395-L409) vs. [ours](https://github.com/MarkMizzi/REPA/blob/main/preprocessing/dataset_tools.py#L398-L431)).
 
 ## Guide to Training on UCloud
 
