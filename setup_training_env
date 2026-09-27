@@ -1,7 +1,5 @@
 #!/etc/bin/bash
 
-set -e
-
 git clone https://github.com/MarkMizzi/REPA.git
 
 cd REPA
