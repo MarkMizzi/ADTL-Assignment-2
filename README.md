@@ -12,7 +12,7 @@ I suggest splitting tasks related to training and tasks related to experiments, 
 | 7 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [ ] | |
 | 8 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-B | 8 | [ ] | |
 | 9 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [ ] | |
-| 10 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-g | 8 | [ ] | |
+| 10 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-g | 8 | [X] | Mark |
 | 11 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 6 | [ ] | |
 | 12 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [ ] | |
 | 13 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 10 | [ ] | |
