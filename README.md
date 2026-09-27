@@ -61,9 +61,9 @@ We need to share data and models which are larger than what is feasible (or good
   python dataset_tools.py convert --source=[DIR]/ILSVRC/Data/CLS-LOC/train \
     --dest=[DIR]/images --resolution=256x256 --transform=center-crop-dhariwal
   ```
-  which they give in the `preprocessing/` folder of their repo to apply some simple image transformation to the images.
+  which they give in the `preprocessing/` folder of their repo to apply some simple image transformation to the images. You can download these images (which are also needed for training) [here](https://sharepoint.markmizzi.com/atdl-assignment-2/images.zip).
 
-- 26/09 Mark: After 6hr 13m of processing we now have the pre-processed dataset [here](https://sharepoint.markmizzi.com/atdl-assignment-2/vae-sd.zip). Pre-processing was performed on an RTX 5080, I had to make some changes to the `dataset_tools.py` script to bring the time down. In particular I added batching support (see [theirs](https://github.com/sihyun-yu/REPA/blob/main/preprocessing/dataset_tools.py#L395-L409) vs. [ours](https://github.com/MarkMizzi/REPA/blob/main/preprocessing/dataset_tools.py#L398-L431)).
+- 26/09 Mark: After 6hr 13m of processing we now have the pre-processed latents [here](https://sharepoint.markmizzi.com/atdl-assignment-2/vae-sd.zip). Pre-processing was performed on an RTX 5080, I had to make some changes to the `dataset_tools.py` script to bring the time down. In particular I added batching support (see [theirs](https://github.com/sihyun-yu/REPA/blob/main/preprocessing/dataset_tools.py#L395-L409) vs. [ours](https://github.com/MarkMizzi/REPA/blob/main/preprocessing/dataset_tools.py#L398-L431)).
 
 ## Troubleshooting
 
@@ -78,7 +78,7 @@ model = torch.hub.load(
     'dinov2_vitg14',
 )
 ```
-
+  
 ### Training script
 
 Training script `--data-dir` argument has to point to a folder which contains raw images under `images/` and VAE latents under `vae-sd`
