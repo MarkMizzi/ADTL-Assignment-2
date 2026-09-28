@@ -124,6 +124,10 @@ model = torch.hub.load(
     'dinov2_vitg14',
 )
 ```
+
+### Restarting from a checkpoint
+
+You can check saved checkpoints under `<output-dir>/<exp-name>/checkpoints`. You can resume from a checkpoint by running the training command above with `--resume-step=<checkpoint-step>`.
   
 ### Training script
 
