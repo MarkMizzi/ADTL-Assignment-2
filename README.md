@@ -8,7 +8,7 @@ I suggest splitting tasks related to training and tasks related to experiments, 
 | 2 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINO-B | 8 | [ ] | |
 | 3 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | MoCov3-L | 8 | [ ] | |
 | 4 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | I-JEPA-H | 8 | [ ] | |
-| 5 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | CLIP-L | 8 | [ ] | |
+| 5 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | CLIP-L | 8 | [X] | Mark |
 | 6 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | SigLIP-L | 8 | [ ] | |
 | 7 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [ ] | |
 | 8 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-B | 8 | [ ] | |
