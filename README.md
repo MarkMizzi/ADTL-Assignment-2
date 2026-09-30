@@ -24,7 +24,7 @@ I suggest splitting tasks related to training and tasks related to experiments, 
 | 18 | 400K | ImageNet 256x256 | DiT-XL/2 | No | N/A | N/A | [ ] | |
 | 19 | 7M | ImageNet 256x256 | DiT-XL/2 | No | N/A | N/A | [ ] | |
 | 20 | 400K | ImageNet 256x256 | SiT-B/2 | No | N/A | N/A | [ ] | |
-| 21 | 400K | ImageNet 256x256 | SiT-L/2 | No | N/A | N/A | [X] | Mark |
+| 21 | 400K | ImageNet 256x256 | SiT-L/2 | No | N/A | N/A | [X] | [Baseline (Ma et al. 2024)](https://arxiv.org/abs/2401.08740) |
 | 22 | 400K | ImageNet 256x256 | SiT-XL/2 | No | N/A | N/A | [ ] | |
 | 23 | 7M | ImageNet 256x256 | SiT-XL/2 | No | N/A | N/A | [ ] | |
 | 24 | 400K | ImageNet 256x256 | DiT-L/2 | Yes | DINOv2-L? | 8 | [ ] | |
