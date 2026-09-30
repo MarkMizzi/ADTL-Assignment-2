@@ -12,10 +12,10 @@ I suggest splitting tasks related to training and tasks related to experiments, 
 | 6 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | SigLIP-L | 8 | [ ] | |
 | 7 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [ ] | |
 | 8 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-B | 8 | [ ] | |
-| 9 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [ ] | |
+| 9 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark |
 | 10 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-g | 8 | [X] | Mark |
 | 11 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 6 | [ ] | |
-| 12 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [ ] | |
+| 12 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark |
 | 13 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 10 | [ ] | |
 | 14 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 12 | [ ] | |
 | 15 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 14 | [ ] | |
