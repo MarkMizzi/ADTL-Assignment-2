@@ -11,7 +11,7 @@ I suggest splitting tasks related to training and tasks related to experiments, 
 | 5 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | CLIP-L | 8 | [X] | Mark | 50:01:05 | ~50 kWh |
 | 6 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | SigLIP-L | 8 | [ ] | | | |
 | 7 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark | | |
-| 8 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-B | 8 | [ ] | | | |
+| 8 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-B | 8 | [X] | Mark | | |
 | 9 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark | | |
 | 10 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-g | 8 | [X] | Mark | ~64:00:00 | ~64 kWh |
 | 11 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 6 | [ ] | | | |
