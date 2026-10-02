@@ -14,12 +14,12 @@ I suggest splitting tasks related to training and tasks related to experiments, 
 | 8 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-B | 8 | [X] | Mark | | |
 | 9 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark | | |
 | 10 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-g | 8 | [X] | Mark | ~64:00:00 | ~64 kWh |
-| 11 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 6 | [X] |FREDERIK | 00:00:00 | |
+| 11 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 6 | [X] |FREDERIK | done around oct 4-5| |
 | 12 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark | | |
-| 13 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 10 | [X] |FREDERIK | 00:00:00 | |
-| 14 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 12 | [X] |FREDERIK | 00:00:00 | |
-| 15 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 14 | [X] |FREDERIK| 00:00:00 | |
-| 16 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 16 | [X] |FREDERIK | 00:00:00 | |
+| 13 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 10 | [X] |FREDERIK | done around oct 4-5 | |
+| 14 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 12 | [X] |FREDERIK | done around oct 4-5 | |
+| 15 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 14 | [X] |FREDERIK| done around oct 4-5 | |
+| 16 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 16 | [X] |FREDERIK | done around oct 4-5 | |
 | 17 | 400K | ImageNet 256x256 | DiT-L/2 | No | N/A | N/A | [ ] | | | |
 | 18 | 400K | ImageNet 256x256 | DiT-XL/2 | No | N/A | N/A | [ ] | | | |
 | 19 | 7M | ImageNet 256x256 | DiT-XL/2 | No | N/A | N/A | [ ] | | | |
@@ -31,7 +31,7 @@ I suggest splitting tasks related to training and tasks related to experiments, 
 | 25 | 400K | ImageNet 256x256 | DiT-XL/2 | Yes | DINOv2-L? | 8 | [ ] | | | |
 | 26 | 7M | ImageNet 256x256 | DiT-XL/2 | Yes | DINOv2-L? | 8 | [ ] | | | |
 | 27 | 400K | ImageNet 256x256 | SiT-B/2 | Yes | DINOv2-L? | 8 | [ ] | | | |
-| 28 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L? | 8 | [X] Mark has done or is done this one | | | |
+| 28 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L? | 8 | [X] Mark has done or is doing this one | | | |
 | 29 | 700K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L? | 8 | [ ] | | | |
 | 30 | 150K | ImageNet 256x256 | SiT-XL/2 | Yes | DINOv2-L? | 8 | [ ] | | | |
 | 31 | 400K | ImageNet 256x256 | SiT-XL/2 | Yes | DINOv2-L? | 8 | [ ] | | | |
