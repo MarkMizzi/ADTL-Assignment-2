@@ -31,7 +31,7 @@ I suggest splitting tasks related to training and tasks related to experiments, 
 | 25 | 400K | ImageNet 256x256 | DiT-XL/2 | Yes | DINOv2-L? | 8 | [ ] | | | |
 | 26 | 7M | ImageNet 256x256 | DiT-XL/2 | Yes | DINOv2-L? | 8 | [ ] | | | |
 | 27 | 400K | ImageNet 256x256 | SiT-B/2 | Yes | DINOv2-L? | 8 | [ ] | | | |
-| 28 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L? | 8 | [X] Mark has done this one | | | |
+| 28 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L? | 8 | [X] Mark has done or is done this one | | | |
 | 29 | 700K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L? | 8 | [ ] | | | |
 | 30 | 150K | ImageNet 256x256 | SiT-XL/2 | Yes | DINOv2-L? | 8 | [ ] | | | |
 | 31 | 400K | ImageNet 256x256 | SiT-XL/2 | Yes | DINOv2-L? | 8 | [ ] | | | |
