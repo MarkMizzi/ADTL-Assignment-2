@@ -14,12 +14,12 @@ I suggest splitting tasks related to training and tasks related to experiments, 
 | 8 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-B | 8 | [X] | Mark | | |
 | 9 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark | | |
 | 10 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-g | 8 | [X] | Mark | ~64:00:00 | ~64 kWh |
-| 11 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 6 | [X] |FREDERIK | | |
+| 11 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 6 | [X] |FREDERIK | 00:00:00 | |
 | 12 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark | | |
-| 13 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 10 | [X] |FREDERIK | | |
-| 14 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 12 | [X] |FREDERIK | | |
-| 15 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 14 | [X] |FREDERIK| | |
-| 16 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 16 | [X] |FREDERIK |00:00:00 | |
+| 13 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 10 | [X] |FREDERIK | 00:00:00 | |
+| 14 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 12 | [X] |FREDERIK | 00:00:00 | |
+| 15 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 14 | [X] |FREDERIK| 00:00:00 | |
+| 16 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 16 | [X] |FREDERIK | 00:00:00 | |
 | 17 | 400K | ImageNet 256x256 | DiT-L/2 | No | N/A | N/A | [ ] | | | |
 | 18 | 400K | ImageNet 256x256 | DiT-XL/2 | No | N/A | N/A | [ ] | | | |
 | 19 | 7M | ImageNet 256x256 | DiT-XL/2 | No | N/A | N/A | [ ] | | | |
