@@ -4,9 +4,9 @@ I suggest splitting tasks related to training and tasks related to experiments, 
 
 | | Training Iterations | Training Dataset | Vision Model | w. REPA? | Target Repr. (for representation alignment) | Depth | To do | By who? | Training time | Energy Estimate* |
 |--|--|--|--|--|--|--|--|--|--|--|
-| 1 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | MAE-L | 8 | [ ] | | | |
-| 2 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINO-B | 8 | [ ] | | | |
-| 3 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | MoCov3-L | 8 | [ ] | | | |
+| 1 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | MAE-L | 8 | [ ] | Ondrej | | |
+| 2 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINO-B | 8 | [ ] | Ondrej | | |
+| 3 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | MoCov3-L | 8 | [ ] | Ondrej | | |
 | 4 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | I-JEPA-H | 8 | [ ] | | | |
 | 5 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | CLIP-L | 8 | [X] | Mark | 50:01:05 | ~50 kWh |
 | 6 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | SigLIP-L | 8 | [ ] | | | |
