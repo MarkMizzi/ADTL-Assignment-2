@@ -66,7 +66,21 @@ Our training process is documented extensively in guide form [in this page](./GU
 
 ## Evaluation
 
-TODO
+### Calculation of FID and sFID
+
+To calculate FID and sFID for the trained models, commands similar to the following were first run on the UCloud servers (from the root of the `REPA` repo) to generate a sample dataset:
+```bash
+torchrun             \
+  --nnodes=1         \
+  --nproc_per_node=1 \
+  generate.py        \
+  --model SiT-L/2    \
+  --num-fid-samples 50000   \
+  --ckpt exps/linear-sit-l-2-dinov2-g-enc8/checkpoints/0400000.pt \
+  --mode sde         \
+  --cfg-scale=1      \
+  --projector-embed-dims=1536
+```
 
 ## Troubleshooting
 
