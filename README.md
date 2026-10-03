@@ -92,11 +92,11 @@ which generates all metrics we reproduce from the paper.
 
 Artifacts such as trained models and images generated for evaluation are available at [this link](https://sharepoint.markmizzi.com/atdl-assignment-2/), and are organized in the following format:
 
-```txt
+```text
 ├── models
 |   └── linear-sit-l-2-<enc-type>-enc<enc-depth>
 |       ├── checkpoints                              
-|           └── 0400000.pt                           # Final training checkpoint, containing trained model + optimizer state
+|       |   └── 0400000.pt                           # Final training checkpoint, containing trained model + optimizer state
 |       └── samples                                  # Samples generated for evaluation
 |           ├── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde/           # Actual sample images 		
 |           └── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde.npz        # Latents used for evaluation
