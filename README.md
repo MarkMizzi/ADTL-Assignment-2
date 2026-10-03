@@ -10,12 +10,12 @@ I suggest splitting tasks related to training and tasks related to experiments, 
 | 4 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | I-JEPA-H | 8 | [ ] | Ondrej | | |
 | 5 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | CLIP-L | 8 | [X] | Mark | 50:01:05 | ~50 kWh |
 | 6 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | SigLIP-L | 8 | [ ] | | | |
-| 7 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark | | |
+| 7 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark | 48:00:53 | ~48 kWh |
 | 8 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-B | 8 | [X] | Mark | | |
-| 9 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark | | |
+| 9 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark | 48:00:53 | ~48 kWh |
 | 10 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-g | 8 | [X] | Mark | ~64:00:00 | ~64 kWh |
 | 11 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 6 | [X] |FREDERIK | done around oct 4-5| |
-| 12 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark | | |
+| 12 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 8 | [X] | Mark | 48:00:53 | ~48 kWh |
 | 13 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 10 | [X] |FREDERIK | done around oct 4-5 | |
 | 14 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 12 | [X] |FREDERIK | done around oct 4-5 | |
 | 15 | 400K | ImageNet 256x256 | SiT-L/2 | Yes | DINOv2-L | 14 | [X] |FREDERIK| done around oct 4-5 | |
