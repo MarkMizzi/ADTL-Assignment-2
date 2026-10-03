@@ -88,7 +88,7 @@ python guided-diffusion/evaluations/evaluator.py \
 ```
 which generates all metrics we reproduce from the paper.
 
-NOTE: In order to run the `evaluator.py` script, you should set up a Python venv with all dependencies in [./guided-diffusion-requirements.txt)[./guided-diffusion-requirements.txt] installed.
+NOTE: In order to run the `evaluator.py` script, you should set up a Python venv with all dependencies in [./guided-diffusion-requirements.txt](./guided-diffusion-requirements.txt) installed.
 
 ## Artifacts
 
