@@ -94,12 +94,12 @@ Artifacts such as trained models and images generated for evaluation are availab
 
 ```txt
 ├── models
-    └── linear-sit-l-2-<enc-type>-enc<enc-depth>
-        ├── checkpoints                              
-            └── 0400000.pt                           # Final training checkpoint, containing trained model + optimizer state
-        └── samples                                  # Samples generated for evaluation
-            ├── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde/           # Actual sample images 		
-            └── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde.npz        # Latents used for evaluation
+|   └── linear-sit-l-2-<enc-type>-enc<enc-depth>
+|       ├── checkpoints                              
+|           └── 0400000.pt                           # Final training checkpoint, containing trained model + optimizer state
+|       └── samples                                  # Samples generated for evaluation
+|           ├── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde/           # Actual sample images 		
+|           └── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde.npz        # Latents used for evaluation
 └── VIRTUAL_imagenet256_labeled.npz                  # Reference latent for ImageNet 256x256
 ```
 
