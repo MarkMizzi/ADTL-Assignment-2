@@ -7,9 +7,10 @@
 5. From the left side bar, click "Applications" > "Development" and then pick "Terminal":
    <img width="1277" height="695" alt="screenshot_2026-09-27_18:23:36" src="https://github.com/user-attachments/assets/32b6b3c1-90ea-45b8-8eee-3edde7c0408c" />
 6. Use the following parameters for the new job:
-   <img width="1279" height="695" alt="screenshot_2026-09-27_18:26:41" src="https://github.com/user-attachments/assets/2d446fae-e03a-4538-96fb-dff9ef14ead5" />
+   <img width="1278" height="695" alt="screenshot_2026-10-03_13:51:22" src="https://github.com/user-attachments/assets/55e8e6e4-f694-464e-ab7e-acdb370ef379" />
+
    100 hours is enough, you can increase this later. Make sure everything matches the screenshot (except for name)
-7. Under "Storage" set "Folder #1" to the `data` directory created earlier:
+8. Under "Storage" set "Folder #1" to the `data` directory created earlier:
    <img width="833" height="155" alt="screenshot_2026-09-27_18:28:33" src="https://github.com/user-attachments/assets/d3fc9a41-0acf-484a-8952-bf0b27c86cf4" />
 
    It is **VERY IMPORTANT** that every output is saved in this directory, as anything else will not be saved.
