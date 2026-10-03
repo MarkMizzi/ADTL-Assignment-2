@@ -38,7 +38,7 @@
       --exp-name="linear-sit-l-2-dinov2-g-enc8" \
       --data-dir=../
     ```
-    with appropriate changes to `--model`, `--enc-type`, `--encoder-depth`. See [REPA README.md](./REPA/README.md) for more details on the options. Model weights will be saved under `exps` in the `REPA` repo.
+    with appropriate changes to `--model`, `--enc-type`, `--encoder-depth`. See [REPA README.md](https://github.com/MarkMizzi/REPA/blob/main/README.md) for more details on the options. Model weights will be saved under `exps` in the `REPA` repo.
 15. Monitor the job over time and check if it needs more time. You can add more hours from the status page.
 
 
