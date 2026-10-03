@@ -66,9 +66,7 @@ Our training process is documented extensively in guide form [in this page](./GU
 
 ## Evaluation
 
-### Calculation of FID and sFID
-
-To calculate FID and sFID for the trained models, commands similar to the following were first run on the UCloud servers (from the root of the `REPA` repo) to generate a sample dataset:
+To calculate evaluation metrics for the trained models, commands similar to the following were first run on the UCloud servers (from the root of the `REPA` repo) to generate a sample dataset:
 ```bash
 torchrun             \
   --nnodes=1         \
@@ -80,6 +78,29 @@ torchrun             \
   --mode sde         \
   --cfg-scale=1      \
   --projector-embed-dims=1536
+```
+
+Latents generated from the command above are compared with a standard ImageNet 256x256 latent obtained [from this link](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/ref_batches/imagenet/256/VIRTUAL_imagenet256_labeled.npz), using the following command:
+```bash
+python guided-diffusion/evaluations/evaluator.py \
+    VIRTUAL_imagenet256_labeled.npz              \
+    <samples-dir>/SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde.npz
+```
+which generates all metrics we reproduce from the paper.
+
+## Artifacts
+
+Artifacts such as trained models and images generated for evaluation are available at [this link](https://sharepoint.markmizzi.com/atdl-assignment-2/), and are organized in the following format:
+
+```txt
+├── models
+    └── linear-sit-l-2-<enc-type>-enc<enc-depth>
+        ├── checkpoints                              
+            └── 0400000.pt                           # Final training checkpoint, containing trained model + optimizer state
+        └── samples                                  # Samples generated for evaluation
+            ├── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde/           # Actual sample images 		
+            └── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde.npz        # Latents used for evaluation
+└── VIRTUAL_imagenet256_labeled.npz                  # Reference latent for ImageNet 256x256
 ```
 
 ## Troubleshooting
