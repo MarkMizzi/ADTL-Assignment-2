@@ -76,7 +76,8 @@ torchrun             \
   --ckpt exps/linear-sit-l-2-dinov2-g-enc8/checkpoints/0400000.pt \
   --mode sde         \
   --cfg-scale=1      \
-  --projector-embed-dims=1536
+  --projector-embed-dims=1536  \
+  --num-steps=250
 ```
 
 Latents generated from the command above are compared with a standard ImageNet 256x256 latent obtained [from this link](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/ref_batches/imagenet/256/VIRTUAL_imagenet256_labeled.npz), using the following command:
