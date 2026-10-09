@@ -101,8 +101,8 @@ Artifacts such as trained models and images generated for evaluation are availab
 |       |   ├── 0400000.pt                           # Final training checkpoint, containing trained model + optimizer state
 |       |   └── <other-checkpoint>.pt
 |       └── samples                                  # Samples generated for evaluation
-|           ├── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde.npz        # Compressed archive of evaluation samples
-|           └── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde-<other-checkpoint-number>.npz    # Same as above but for checkpoint ≠ 400K
+|           ├── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde.npz             # Compressed archive of evaluation samples
+|           └── SiT-L-2-<other-checkpoint>-size-256-vae-ema-cfg-1.0-seed-0-sde.npz  # Same as above but for checkpoint ≠ 400K
 └── VIRTUAL_imagenet256_labeled.npz                  # Reference latent for ImageNet 256x256
 ```
 
