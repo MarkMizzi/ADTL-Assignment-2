@@ -98,11 +98,17 @@ Artifacts such as trained models and images generated for evaluation are availab
 ├── models
 |   └── linear-sit-l-2-<enc-type>-enc<enc-depth>
 |       ├── checkpoints                              
-|       |   └── 0400000.pt                           # Final training checkpoint, containing trained model + optimizer state
+|       |   ├── 0400000.pt                           # Final training checkpoint, containing trained model + optimizer state
+|       |   └── <other-checkpoint>.pt
 |       └── samples                                  # Samples generated for evaluation
-|           ├── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde/           # Actual sample images 		
-|           └── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde.npz        # Latents used for evaluation
+|           ├── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde.npz        # Compressed archive of evaluation samples
+|           └── SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde-<other-checkpoint-number>.npz    # Same as above but for checkpoint ≠ 400K
 └── VIRTUAL_imagenet256_labeled.npz                  # Reference latent for ImageNet 256x256
+```
+
+The images generated for evaluation can be extracted from the `.npz` archives using the [./extract_images_from_npz.py](./extract_images_from_npz.py), e.g.
+```bash
+python extract_images_from_npz.py SiT-L-2-0400000-size-256-vae-ema-cfg-1.0-seed-0-sde.npz outdir
 ```
 
 ## Troubleshooting
